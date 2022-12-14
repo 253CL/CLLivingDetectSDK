@@ -7,6 +7,7 @@
 //
 
 #import "CLViewController.h"
+#import <CLLivingDetectSDK/CLLivingDetectSDK.h>
 
 @interface CLViewController ()
 
@@ -17,7 +18,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [CLLivingDetectManager setPrintConsoleEnable:YES];
+    [CLLivingDetectManager initWithAppId:@"QYLLRZK6"];
+    [CLLivingDetectManager setLivingConfig:[CLLvingConfig defaultConfig]];
+    
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(50, 120, self.view.frame.size.width-100, 50);
+    [button setTitle:@"活体测试" forState:UIControlStateNormal];
+    [button setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    [button setBackgroundColor:UIColor.blueColor];
+    [button addTarget:self action:@selector(clickEvent:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)clickEvent:(UIButton *)sender{
+    [CLLivingDetectManager startVerifyWithViewController:self completion:^(CLLivingResult * _Nonnull result) {
+        NSLog(@"");
+    }];
 }
 
 - (void)didReceiveMemoryWarning

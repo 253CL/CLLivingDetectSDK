@@ -1,0 +1,16 @@
+PODS:
+  - CLLivingDetectSDK (0.0.1)
+
+DEPENDENCIES:
+  - CLLivingDetectSDK (from `../`)
+
+EXTERNAL SOURCES:
+  CLLivingDetectSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLLivingDetectSDK: 986d30c22c7a7923274a160f1015abb217da0f09
+
+PODFILE CHECKSUM: ae1c706a7992abd4f20aa14907d30c0f6418f8b6
+
+COCOAPODS: 1.11.3
