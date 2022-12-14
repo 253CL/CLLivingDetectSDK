@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CLLivingDetectSDK_Example' do
+  pod 'CLLivingDetectSDK', :path => '../'
+
+  target 'CLLivingDetectSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
