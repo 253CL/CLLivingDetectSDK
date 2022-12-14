@@ -7,8 +7,8 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'CLLivingDetectSDK'
-  s.version          = '0.0.1'
-  s.summary          = '1213123'
+  s.version          = '1.0.0.1'
+  s.summary          = '活体检测'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,7 @@ TODO:活体SDK检测
   s.libraries   = 'resolv','z','c++.1','c++abi','z.1.2.8'
   s.vendored_frameworks =  'CLLivingDetectSDK/Classes/framework/*.{framework}'
   
-  s.resources = ['CLLivingDetectSDK/Classes/framework/*.{framework}/*.bundle']
+#  s.resources = ['CLLivingDetectSDK/Classes/framework/*.{framework}/*.bundle']
    s.frameworks = 'CoreGraphics', 'Accelerate','SystemConfiguration','AssetsLibrary','CoreTelephony','QuartzCore','CoreFoundation','CoreLocation','ImageIO','CoreMedia','CoreMotion','AVFoundation','WebKit','AudioToolbox','MobileCoreServices','AdSupport'
    s.weak_framework = 'CFNetwork'
   
@@ -43,6 +43,10 @@ TODO:活体SDK检测
        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
        'ENABLE_BITCODE' => 'NO',
    }
+  
+  s.subspec 'Source' do |ss|
+      ss.resources = ['CLLivingDetectSDK/Classes/framework/*.{framework}/*.bundle']
+  end
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
