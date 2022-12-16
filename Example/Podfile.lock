@@ -1,7 +1,5 @@
 PODS:
-  - CLLivingDetectSDK (1.0.0.1):
-    - CLLivingDetectSDK/Source (= 1.0.0.1)
-  - CLLivingDetectSDK/Source (1.0.0.1)
+  - CLLivingDetectSDK (1.0.0.2)
 
 DEPENDENCIES:
   - CLLivingDetectSDK (from `../`)
@@ -11,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CLLivingDetectSDK: 2d330ab324b93aa9d43d9a7ecdcee7cece33abaa
+  CLLivingDetectSDK: d63d885ad8fe155e0fee23f3efd284f0a109e672
 
 PODFILE CHECKSUM: ae1c706a7992abd4f20aa14907d30c0f6418f8b6
 

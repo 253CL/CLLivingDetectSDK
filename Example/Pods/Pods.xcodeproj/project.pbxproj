@@ -28,66 +28,66 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		42E747109703F68E7C1B7F7303E39047 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F90D049326DFAA53B9AA539889D6D2F5;
-			remoteInfo = CLLivingDetectSDK;
-		};
-		EFDA6069B0C7FC8BB0A6240067DF2A23 /* PBXContainerItemProxy */ = {
+		6820AF9258CFFCB725C421AF5881C68A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BF4B3D76DA38C76C6895952C7B3E758E;
 			remoteInfo = "Pods-CLLivingDetectSDK_Example";
 		};
+		EE305284E9335ABE7D4E203D077671D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F90D049326DFAA53B9AA539889D6D2F5;
+			remoteInfo = CLLivingDetectSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0275851D0517EA79727F7C89177BF989 /* Pods-CLLivingDetectSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CLLivingDetectSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		16498B0F3570BA25D52E618A3B01F742 /* DTFMobileRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFMobileRPC.framework; path = CLLivingDetectSDK/Classes/framework/DTFMobileRPC.framework; sourceTree = "<group>"; };
-		1674D43A716F418DFACDEAC7E058E3E3 /* DTFUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFUtility.framework; path = CLLivingDetectSDK/Classes/framework/DTFUtility.framework; sourceTree = "<group>"; };
+		0B4307DD31BFABD6D982D496582E53AD /* CLLivingDetectSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLLivingDetectSDK.release.xcconfig; sourceTree = "<group>"; };
+		158D081F662F98718930715210F28491 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		159E72A83FCA8C929638B065E79F844A /* MPRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPRemoteLogging.framework; path = CLLivingDetectSDK/Classes/framework/MPRemoteLogging.framework; sourceTree = "<group>"; };
 		2DA6AA396D7898BD97253A6E39A3035F /* Pods-CLLivingDetectSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLLivingDetectSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2E6C5FC06D890E78F2BFFF30F4BE9F1B /* BioAuthAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BioAuthAPI.framework; path = CLLivingDetectSDK/Classes/framework/BioAuthAPI.framework; sourceTree = "<group>"; };
-		2E87E29167C4A6933B74675E65EF3FF9 /* CLLivingDetectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CLLivingDetectSDK.framework; path = CLLivingDetectSDK/Classes/framework/CLLivingDetectSDK.framework; sourceTree = "<group>"; };
-		314A9D0E3B2E675FEAFCE2D333D3EEB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		37B7F70AA2F45223777565DDCCDB7825 /* ToygerService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToygerService.framework; path = CLLivingDetectSDK/Classes/framework/ToygerService.framework; sourceTree = "<group>"; };
-		388D71F91E4F578FC4B3DEB076484A01 /* MPRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPRemoteLogging.framework; path = CLLivingDetectSDK/Classes/framework/MPRemoteLogging.framework; sourceTree = "<group>"; };
+		3ACDC66AD6B61DD86CF3478C24EFF750 /* APBToygerFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APBToygerFacade.framework; path = CLLivingDetectSDK/Classes/framework/APBToygerFacade.framework; sourceTree = "<group>"; };
 		3E63A2EC097C58844E8DB42D54B9CF99 /* Pods-CLLivingDetectSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLLivingDetectSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		453200D63FF4ADE0E5460548760C5AD1 /* CLLivingDetectSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLLivingDetectSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4E78B6A0A7417174B8BB051A8BD4356B /* APPSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APPSecuritySDK.framework; path = CLLivingDetectSDK/Classes/framework/APPSecuritySDK.framework; sourceTree = "<group>"; };
+		48B31F43BBC73770F52267AABECB9E54 /* BioAuthEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BioAuthEngine.framework; path = CLLivingDetectSDK/Classes/framework/BioAuthEngine.framework; sourceTree = "<group>"; };
+		4AF106090B0EECD16ADE42DE132ED3F3 /* DTFUIModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFUIModule.framework; path = CLLivingDetectSDK/Classes/framework/DTFUIModule.framework; sourceTree = "<group>"; };
 		50E725F90764F3D200BCBEA01BE09FDD /* Pods-CLLivingDetectSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLLivingDetectSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		56214598306DEF12C332E8ABDA953F0D /* CLLivingDetectSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLLivingDetectSDK.release.xcconfig; sourceTree = "<group>"; };
-		5660848E297CC9E09530089D01BE206D /* CLLivingDetectSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLLivingDetectSDK.debug.xcconfig; sourceTree = "<group>"; };
-		58F48C69982D592FD10C4DF537B0BDA5 /* APBToygerFacade.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APBToygerFacade.bundle; sourceTree = "<group>"; };
-		5B3DBBDACE2C1EE32B9F0AABA38D3ADA /* CLLivingDetect.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = CLLivingDetect.bundle; sourceTree = "<group>"; };
+		5926EF74401414BB92E3D0FA717625E6 /* ToygerService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToygerService.framework; path = CLLivingDetectSDK/Classes/framework/ToygerService.framework; sourceTree = "<group>"; };
 		5F57C8A6BF6685DDD0043B3FD1C292DC /* Pods-CLLivingDetectSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CLLivingDetectSDK_Example.modulemap"; sourceTree = "<group>"; };
 		6202DC11F2BB3BDBE12169C20AA0DE6A /* Pods-CLLivingDetectSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLLivingDetectSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		63321ECA65BAE33AA0374A8691CDD332 /* Pods-CLLivingDetectSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CLLivingDetectSDK_Tests"; path = Pods_CLLivingDetectSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D52D61BCD23BE617F63EC5DA1430BC6 /* Pods-CLLivingDetectSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLLivingDetectSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		6DF3F14EF1091A09A4E7B52753D976BB /* BioAuthEngine.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BioAuthEngine.bundle; sourceTree = "<group>"; };
+		70F8C63D7F6371B474C988047B6FAD1D /* CLLivingDetectSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLLivingDetectSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		718B3F2D13EDA239D17400F9D5E8011E /* Pods-CLLivingDetectSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLLivingDetectSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76B473B2DDED9FE649C540915A9C4E34 /* DTFSensorServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFSensorServices.framework; path = CLLivingDetectSDK/Classes/framework/DTFSensorServices.framework; sourceTree = "<group>"; };
+		78E5E920AFF82CE77E1AA9E5C3E8E4A9 /* DTFIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFIdentityManager.framework; path = CLLivingDetectSDK/Classes/framework/DTFIdentityManager.framework; sourceTree = "<group>"; };
 		7920E5CAA79E5F4F9597A91607E25B54 /* Pods-CLLivingDetectSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLLivingDetectSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		825D3DA0ECF66508383B25D861F55F30 /* Pods-CLLivingDetectSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLLivingDetectSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		878A55F90743E923AFDD2EA6963DAADF /* ToygerNative.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = ToygerNative.bundle; sourceTree = "<group>"; };
+		861128EEBF7128F8FBC53A1EB9963390 /* ToygerNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToygerNative.framework; path = CLLivingDetectSDK/Classes/framework/ToygerNative.framework; sourceTree = "<group>"; };
+		8F07ED0BED774032339A352EEC147B4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		901591FCC6E56CD2A7EF74A31B73D2E0 /* CLLivingDetectSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLLivingDetectSDK.debug.xcconfig; sourceTree = "<group>"; };
+		9063C430682B3C415C297BE7FED57E90 /* ToygerNative.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = ToygerNative.bundle; sourceTree = "<group>"; };
+		9859E71F936D51E9A1D6444C6444287F /* CLLivingDetectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CLLivingDetectSDK.framework; path = CLLivingDetectSDK/Classes/framework/CLLivingDetectSDK.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D94FEDAE0EF265A1F2D2D1C8823EE09 /* Pods-CLLivingDetectSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLLivingDetectSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		9F9059FB9AB8387369CFB1D32656EEC7 /* DTFSensorServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFSensorServices.framework; path = CLLivingDetectSDK/Classes/framework/DTFSensorServices.framework; sourceTree = "<group>"; };
 		A3BD4EEC5785374B2E84D61F206473DA /* Pods-CLLivingDetectSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLLivingDetectSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		A7E2D7A950CE71E5DD2A07F409492777 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AD1A7342A0EA0A26AC3FDE4567B5F7E2 /* Pods-CLLivingDetectSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLLivingDetectSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AEAE7B0D23B45A2F07B634AA8166595E /* DTFIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFIdentityManager.framework; path = CLLivingDetectSDK/Classes/framework/DTFIdentityManager.framework; sourceTree = "<group>"; };
-		B03AC27E7C43CFF2C7512393D327BE80 /* BioAuthEngine.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BioAuthEngine.bundle; sourceTree = "<group>"; };
-		BB7C555D0898C818004E1409BF025DB4 /* DTFUIModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFUIModule.framework; path = CLLivingDetectSDK/Classes/framework/DTFUIModule.framework; sourceTree = "<group>"; };
+		B7B1869AF146E489AD39CC4A8EDED2E2 /* BioAuthAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BioAuthAPI.framework; path = CLLivingDetectSDK/Classes/framework/BioAuthAPI.framework; sourceTree = "<group>"; };
 		BC53BF3CC1BAB802A44C7E5DD2D85D82 /* Pods-CLLivingDetectSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CLLivingDetectSDK_Example"; path = Pods_CLLivingDetectSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4D58F7B66CA1444C519F0B8AC05EE6 /* Pods-CLLivingDetectSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLLivingDetectSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		C8849FB74A9172DC4FDC61A9B09BECBD /* ToygerNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToygerNative.framework; path = CLLivingDetectSDK/Classes/framework/ToygerNative.framework; sourceTree = "<group>"; };
 		CB8F73A61F0FE4D118631F5DBE0BE94F /* Pods-CLLivingDetectSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLLivingDetectSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D66DBCEB4C4AA27EC76E6A141E0813A5 /* CLLivingDetect.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = CLLivingDetect.bundle; sourceTree = "<group>"; };
+		D765C1FD6DD5E0C9F0E1816C4884FE07 /* APPSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APPSecuritySDK.framework; path = CLLivingDetectSDK/Classes/framework/APPSecuritySDK.framework; sourceTree = "<group>"; };
+		D9CB1CCE6B88CEAB8319CE02744191D8 /* DTFUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFUtility.framework; path = CLLivingDetectSDK/Classes/framework/DTFUtility.framework; sourceTree = "<group>"; };
 		E5265BD30D010C2EAC9FBE956E808535 /* Pods-CLLivingDetectSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLLivingDetectSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E79E8B4D87EB1D9E5E28D56C17A13CA2 /* APBToygerFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APBToygerFacade.framework; path = CLLivingDetectSDK/Classes/framework/APBToygerFacade.framework; sourceTree = "<group>"; };
 		E8D568FCE153342541106D7AA87B0910 /* Pods-CLLivingDetectSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLLivingDetectSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EAF08899FA2B3C8CF046A7F8713F86FA /* BioAuthEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BioAuthEngine.framework; path = CLLivingDetectSDK/Classes/framework/BioAuthEngine.framework; sourceTree = "<group>"; };
+		E9ABFE36CB7A7B8FCEB2E26BD879206C /* DTFMobileRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFMobileRPC.framework; path = CLLivingDetectSDK/Classes/framework/DTFMobileRPC.framework; sourceTree = "<group>"; };
+		F2BFEE9476E207E7AB8A344CBB3E9E5B /* APBToygerFacade.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APBToygerFacade.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,23 +110,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40151B7BD902A03A14E774701B78F441 /* Pod */ = {
+		1A16593DA372076D259254CE204E43DE /* ToygerNative.framework */ = {
 			isa = PBXGroup;
 			children = (
-				453200D63FF4ADE0E5460548760C5AD1 /* CLLivingDetectSDK.podspec */,
-				A7E2D7A950CE71E5DD2A07F409492777 /* LICENSE */,
-				314A9D0E3B2E675FEAFCE2D333D3EEB0 /* README.md */,
+				9063C430682B3C415C297BE7FED57E90 /* ToygerNative.bundle */,
 			);
-			name = Pod;
+			name = ToygerNative.framework;
+			path = CLLivingDetectSDK/Classes/framework/ToygerNative.framework;
 			sourceTree = "<group>";
 		};
-		573B85C563F70DB8A8FC16D5EC66EE01 /* APBToygerFacade.framework */ = {
+		2D117BFDEEF5395E083D67A7348DA74E /* CLLivingDetectSDK */ = {
 			isa = PBXGroup;
 			children = (
-				58F48C69982D592FD10C4DF537B0BDA5 /* APBToygerFacade.bundle */,
+				351F1F1C6D30C64CA75F91E5B4F4B7EC /* APBToygerFacade.framework */,
+				E002D40D6CD46459E5B45F0F21D9D0C8 /* BioAuthEngine.framework */,
+				9F89DAD195FCCAD0FA8B99C82A97A0D3 /* CLLivingDetectSDK.framework */,
+				87D42608FBC1168DD3AC31D8495875AD /* Frameworks */,
+				BF2FE0CE2F0A466EF9F2A1A0EDEC6912 /* Pod */,
+				5154F066640A8240C2DCB34DB32EA184 /* Support Files */,
+				1A16593DA372076D259254CE204E43DE /* ToygerNative.framework */,
+			);
+			name = CLLivingDetectSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		351F1F1C6D30C64CA75F91E5B4F4B7EC /* APBToygerFacade.framework */ = {
+			isa = PBXGroup;
+			children = (
+				F2BFEE9476E207E7AB8A344CBB3E9E5B /* APBToygerFacade.bundle */,
 			);
 			name = APBToygerFacade.framework;
 			path = CLLivingDetectSDK/Classes/framework/APBToygerFacade.framework;
+			sourceTree = "<group>";
+		};
+		4F3F9E8F4FD0C1EC3E66BA09CC3AABD5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D117BFDEEF5395E083D67A7348DA74E /* CLLivingDetectSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5154F066640A8240C2DCB34DB32EA184 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				901591FCC6E56CD2A7EF74A31B73D2E0 /* CLLivingDetectSDK.debug.xcconfig */,
+				0B4307DD31BFABD6D982D496582E53AD /* CLLivingDetectSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CLLivingDetectSDK";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -137,74 +169,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5CDA6FD842514E86FB8B740623DECAD9 /* Source */ = {
+		87D42608FBC1168DD3AC31D8495875AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				573B85C563F70DB8A8FC16D5EC66EE01 /* APBToygerFacade.framework */,
-				A64971611B57764124BEC695D4E47746 /* BioAuthEngine.framework */,
-				65F44F5DDF08C0CE887EBBB5CAC300FE /* CLLivingDetectSDK.framework */,
-				E4FBE189B8727C4BE6542A3DAF636086 /* ToygerNative.framework */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
-		5F8471D0206ADD28FCE1C014D449CC40 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E79E8B4D87EB1D9E5E28D56C17A13CA2 /* APBToygerFacade.framework */,
-				4E78B6A0A7417174B8BB051A8BD4356B /* APPSecuritySDK.framework */,
-				2E6C5FC06D890E78F2BFFF30F4BE9F1B /* BioAuthAPI.framework */,
-				EAF08899FA2B3C8CF046A7F8713F86FA /* BioAuthEngine.framework */,
-				2E87E29167C4A6933B74675E65EF3FF9 /* CLLivingDetectSDK.framework */,
-				AEAE7B0D23B45A2F07B634AA8166595E /* DTFIdentityManager.framework */,
-				16498B0F3570BA25D52E618A3B01F742 /* DTFMobileRPC.framework */,
-				76B473B2DDED9FE649C540915A9C4E34 /* DTFSensorServices.framework */,
-				BB7C555D0898C818004E1409BF025DB4 /* DTFUIModule.framework */,
-				1674D43A716F418DFACDEAC7E058E3E3 /* DTFUtility.framework */,
-				388D71F91E4F578FC4B3DEB076484A01 /* MPRemoteLogging.framework */,
-				C8849FB74A9172DC4FDC61A9B09BECBD /* ToygerNative.framework */,
-				37B7F70AA2F45223777565DDCCDB7825 /* ToygerService.framework */,
+				3ACDC66AD6B61DD86CF3478C24EFF750 /* APBToygerFacade.framework */,
+				D765C1FD6DD5E0C9F0E1816C4884FE07 /* APPSecuritySDK.framework */,
+				B7B1869AF146E489AD39CC4A8EDED2E2 /* BioAuthAPI.framework */,
+				48B31F43BBC73770F52267AABECB9E54 /* BioAuthEngine.framework */,
+				9859E71F936D51E9A1D6444C6444287F /* CLLivingDetectSDK.framework */,
+				78E5E920AFF82CE77E1AA9E5C3E8E4A9 /* DTFIdentityManager.framework */,
+				E9ABFE36CB7A7B8FCEB2E26BD879206C /* DTFMobileRPC.framework */,
+				9F9059FB9AB8387369CFB1D32656EEC7 /* DTFSensorServices.framework */,
+				4AF106090B0EECD16ADE42DE132ED3F3 /* DTFUIModule.framework */,
+				D9CB1CCE6B88CEAB8319CE02744191D8 /* DTFUtility.framework */,
+				159E72A83FCA8C929638B065E79F844A /* MPRemoteLogging.framework */,
+				861128EEBF7128F8FBC53A1EB9963390 /* ToygerNative.framework */,
+				5926EF74401414BB92E3D0FA717625E6 /* ToygerService.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		61BFB8684D95BAD4986D73A5729A786D /* CLLivingDetectSDK */ = {
-			isa = PBXGroup;
-			children = (
-				5F8471D0206ADD28FCE1C014D449CC40 /* Frameworks */,
-				40151B7BD902A03A14E774701B78F441 /* Pod */,
-				5CDA6FD842514E86FB8B740623DECAD9 /* Source */,
-				6220D2E4BFCAA9A724CC95F6975D0929 /* Support Files */,
-			);
-			name = CLLivingDetectSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6220D2E4BFCAA9A724CC95F6975D0929 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5660848E297CC9E09530089D01BE206D /* CLLivingDetectSDK.debug.xcconfig */,
-				56214598306DEF12C332E8ABDA953F0D /* CLLivingDetectSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CLLivingDetectSDK";
-			sourceTree = "<group>";
-		};
-		65F44F5DDF08C0CE887EBBB5CAC300FE /* CLLivingDetectSDK.framework */ = {
-			isa = PBXGroup;
-			children = (
-				5B3DBBDACE2C1EE32B9F0AABA38D3ADA /* CLLivingDetect.bundle */,
-			);
-			name = CLLivingDetectSDK.framework;
-			path = CLLivingDetectSDK/Classes/framework/CLLivingDetectSDK.framework;
-			sourceTree = "<group>";
-		};
-		88C3347449141AC2DBE0293C1007C5FC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				61BFB8684D95BAD4986D73A5729A786D /* CLLivingDetectSDK */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9A251ECA7D1E04AEF988583CE0B1BA98 /* Targets Support Files */ = {
@@ -216,6 +198,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9F89DAD195FCCAD0FA8B99C82A97A0D3 /* CLLivingDetectSDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				D66DBCEB4C4AA27EC76E6A141E0813A5 /* CLLivingDetect.bundle */,
+			);
+			name = CLLivingDetectSDK.framework;
+			path = CLLivingDetectSDK/Classes/framework/CLLivingDetectSDK.framework;
+			sourceTree = "<group>";
+		};
 		A1EC810AC4011C16D3193D520AAC5E22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,15 +214,6 @@
 				63321ECA65BAE33AA0374A8691CDD332 /* Pods-CLLivingDetectSDK_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A64971611B57764124BEC695D4E47746 /* BioAuthEngine.framework */ = {
-			isa = PBXGroup;
-			children = (
-				B03AC27E7C43CFF2C7512393D327BE80 /* BioAuthEngine.bundle */,
-			);
-			name = BioAuthEngine.framework;
-			path = CLLivingDetectSDK/Classes/framework/BioAuthEngine.framework;
 			sourceTree = "<group>";
 		};
 		B29B3787D3491E91D9363FCC60DD1993 /* Pods-CLLivingDetectSDK_Tests */ = {
@@ -250,11 +232,21 @@
 			path = "Target Support Files/Pods-CLLivingDetectSDK_Tests";
 			sourceTree = "<group>";
 		};
+		BF2FE0CE2F0A466EF9F2A1A0EDEC6912 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				70F8C63D7F6371B474C988047B6FAD1D /* CLLivingDetectSDK.podspec */,
+				158D081F662F98718930715210F28491 /* LICENSE */,
+				8F07ED0BED774032339A352EEC147B4F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				88C3347449141AC2DBE0293C1007C5FC /* Development Pods */,
+				4F3F9E8F4FD0C1EC3E66BA09CC3AABD5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				A1EC810AC4011C16D3193D520AAC5E22 /* Products */,
 				9A251ECA7D1E04AEF988583CE0B1BA98 /* Targets Support Files */,
@@ -267,6 +259,15 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E002D40D6CD46459E5B45F0F21D9D0C8 /* BioAuthEngine.framework */ = {
+			isa = PBXGroup;
+			children = (
+				6DF3F14EF1091A09A4E7B52753D976BB /* BioAuthEngine.bundle */,
+			);
+			name = BioAuthEngine.framework;
+			path = CLLivingDetectSDK/Classes/framework/BioAuthEngine.framework;
 			sourceTree = "<group>";
 		};
 		E34C6403A1DF63B8A0DFDA274DE6CFDE /* Pods-CLLivingDetectSDK_Example */ = {
@@ -284,15 +285,6 @@
 			);
 			name = "Pods-CLLivingDetectSDK_Example";
 			path = "Target Support Files/Pods-CLLivingDetectSDK_Example";
-			sourceTree = "<group>";
-		};
-		E4FBE189B8727C4BE6542A3DAF636086 /* ToygerNative.framework */ = {
-			isa = PBXGroup;
-			children = (
-				878A55F90743E923AFDD2EA6963DAADF /* ToygerNative.bundle */,
-			);
-			name = ToygerNative.framework;
-			path = CLLivingDetectSDK/Classes/framework/ToygerNative.framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +321,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B7539CCD81AD33F75F8CDD2824EF4439 /* PBXTargetDependency */,
+				35707F9F4548E5C8A5291FF91E518632 /* PBXTargetDependency */,
 			);
 			name = "Pods-CLLivingDetectSDK_Tests";
 			productName = Pods_CLLivingDetectSDK_Tests;
@@ -348,7 +340,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0E50106AB5E6D149441E64F5A532408B /* PBXTargetDependency */,
+				A7D2DC6C560CF641F34D2EBF07591E1F /* PBXTargetDependency */,
 			);
 			name = "Pods-CLLivingDetectSDK_Example";
 			productName = Pods_CLLivingDetectSDK_Example;
@@ -421,17 +413,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E50106AB5E6D149441E64F5A532408B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CLLivingDetectSDK;
-			target = F90D049326DFAA53B9AA539889D6D2F5 /* CLLivingDetectSDK */;
-			targetProxy = 42E747109703F68E7C1B7F7303E39047 /* PBXContainerItemProxy */;
-		};
-		B7539CCD81AD33F75F8CDD2824EF4439 /* PBXTargetDependency */ = {
+		35707F9F4548E5C8A5291FF91E518632 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CLLivingDetectSDK_Example";
 			target = BF4B3D76DA38C76C6895952C7B3E758E /* Pods-CLLivingDetectSDK_Example */;
-			targetProxy = EFDA6069B0C7FC8BB0A6240067DF2A23 /* PBXContainerItemProxy */;
+			targetProxy = 6820AF9258CFFCB725C421AF5881C68A /* PBXContainerItemProxy */;
+		};
+		A7D2DC6C560CF641F34D2EBF07591E1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CLLivingDetectSDK;
+			target = F90D049326DFAA53B9AA539889D6D2F5 /* CLLivingDetectSDK */;
+			targetProxy = EE305284E9335ABE7D4E203D077671D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -601,7 +593,7 @@
 		};
 		A87A5D2FC33D1DEB16289EDCCD905410 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56214598306DEF12C332E8ABDA953F0D /* CLLivingDetectSDK.release.xcconfig */;
+			baseConfigurationReference = 0B4307DD31BFABD6D982D496582E53AD /* CLLivingDetectSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -615,7 +607,7 @@
 		};
 		BD67FC36B513EC8773A4D72D7091BA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5660848E297CC9E09530089D01BE206D /* CLLivingDetectSDK.debug.xcconfig */;
+			baseConfigurationReference = 901591FCC6E56CD2A7EF74A31B73D2E0 /* CLLivingDetectSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

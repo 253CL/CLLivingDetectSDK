@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'CLLivingDetectSDK'
-  s.version          = '1.0.0.1'
+  s.version          = '1.0.0.2'
   s.summary          = '活体检测'
 
 # This description is used to generate tags and improve search results.
@@ -34,19 +34,19 @@ TODO:活体SDK检测
    s.frameworks = 'CoreGraphics', 'Accelerate','SystemConfiguration','AssetsLibrary','CoreTelephony','QuartzCore','CoreFoundation','CoreLocation','ImageIO','CoreMedia','CoreMotion','AVFoundation','WebKit','AudioToolbox','MobileCoreServices','AdSupport'
    s.weak_framework = 'CFNetwork'
   
-  s.pod_target_xcconfig = {
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-  }
-  s.user_target_xcconfig = {
-        'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/CLLivingDetectSDK/framework',
-       'OTHER_LDFLAGS' => ['-lObjC'],
-       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-       'ENABLE_BITCODE' => 'NO',
-   }
   
-  s.subspec 'Source' do |ss|
-      ss.resources = ['CLLivingDetectSDK/Classes/framework/*.{framework}/*.bundle']
-  end
+  s.pod_target_xcconfig = {
+      'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/CLLivingDetectSDK/framework',
+      'OTHER_LDFLAGS' => ['$(inherited)' ,'-undefined dynamic_lookup' '-ObjC']
+  }
+  
+  s.user_target_xcconfig = {
+      'OTHER_LDFLAGS' => ['-lObjC'],
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+       'ENABLE_BITCODE' => 'NO'
+   }
+  s.resources = ['CLLivingDetectSDK/Classes/framework/*.{framework}/*.bundle']
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
