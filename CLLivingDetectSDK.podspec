@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'CLLivingDetectSDK'
-  s.version          = '1.0.0.2'
+  s.version          = '1.0.0.3'
   s.summary          = '活体检测'
 
 # This description is used to generate tags and improve search results.
@@ -36,8 +36,9 @@ TODO:活体SDK检测
   
   
   s.pod_target_xcconfig = {
-      'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/CLLivingDetectSDK/framework',
-      'OTHER_LDFLAGS' => ['$(inherited)' ,'-undefined dynamic_lookup' '-ObjC']
+      'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/CLLivingDetectSDK/Classes/framework',
+      'OTHER_LDFLAGS' => ['$(inherited)' ,'-undefined dynamic_lookup' '-ObjC'],
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
   
   s.user_target_xcconfig = {

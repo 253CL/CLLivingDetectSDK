@@ -46,11 +46,12 @@
   ],
   "weak_frameworks": "CFNetwork",
   "pod_target_xcconfig": {
-    "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/CLLivingDetectSDK/framework",
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PODS_ROOT)/CLLivingDetectSDK/Classes/framework",
     "OTHER_LDFLAGS": [
       "$(inherited)",
       "-undefined dynamic_lookup-ObjC"
-    ]
+    ],
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "user_target_xcconfig": {
     "OTHER_LDFLAGS": [
