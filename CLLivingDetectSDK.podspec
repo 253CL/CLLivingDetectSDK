@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'CLLivingDetectSDK'
-  s.version          = '1.0.0.3'
+  s.version          = '1.2.0.0'
   s.summary          = '活体检测'
 
 # This description is used to generate tags and improve search results.
